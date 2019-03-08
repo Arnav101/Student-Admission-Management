@@ -1,0 +1,1 @@
+create table Student(RollNo varchar(8) primary key, Name varchar(40), Class varchar(2), Division int,User varchar(40), foreign key (User) references Management(User));
